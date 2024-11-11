@@ -131,10 +131,12 @@
     <ClCompile Include="Conference.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Participant.cpp" />
+    <ClCompile Include="Program.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Conference.h" />
-    <ClInclude Include="Participant.h" />
+    <ClInclude Include="flarticipant.h" />
+    <ClInclude Include="Program.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

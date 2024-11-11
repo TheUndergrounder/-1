@@ -24,12 +24,18 @@
     <ClCompile Include="Participant.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Participant.h">
+    <ClInclude Include="flarticipant.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="Conference.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Program.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
