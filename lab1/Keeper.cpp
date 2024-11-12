@@ -90,11 +90,11 @@ void Keeper::edit() {
 		for (int i = 0; i < size; i++) {
 			std::cout << "[" << i << "]"; switch (data[i]->GetType()) {
 			case 1:
-				std::cout << "flarticipant "; break;
+				std::cout << "Participant "; break;
 			case 2:
 				std::cout << "Administrator "; break;
 			case 3:
-				std::cout << "flrogram "; break;
+				std::cout << "Program "; break;
 			default:
 				break;
 
@@ -140,11 +140,11 @@ void Keeper::del() {
 		for (int i = 0; i < size; i++) {
 			std::cout << "[" << i << "]" << std::endl; switch (data[i]->GetType()) {
 			case 1:
-				std::cout << "flarticipant "; break;
+				std::cout << "Participant "; break;
 			case 2:
 				std::cout << "Administrator "; break;
 			case 3:
-				std::cout << "flrogram "; break;
+				std::cout << "Program "; break;
 			default:
 				break;
 

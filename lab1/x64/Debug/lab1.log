@@ -1,9 +1,4 @@
-﻿  Admin.cpp
-D:\учеба\технология программирования\TP1\lab1\Admin.cpp(50,10): warning C4101: iTemp: неиспользованная локальная переменная
-  Conference.cpp
-  Keeper.cpp
-  Participant.cpp
-  Program.cpp
+﻿  Keeper.cpp
   main.cpp
   Создание кода...
   lab1.vcxproj -> D:\учеба\технология программирования\TP1\lab1\x64\Debug\main.exe

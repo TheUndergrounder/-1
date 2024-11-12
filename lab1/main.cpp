@@ -16,7 +16,7 @@ int main()
 		std::cout << "***************************" << std::endl
 			<< "	Menu	" << std::endl
 			<< "***************************" << std::endl
-			<< " umber of elements in KEEflER : [" << Konten.GetSize() << "]"
+			<< " Number of elements in KEEflER : [" << Konten.GetSize() << "]"
 
 			<< "[1] Append element" << std::endl
 			<< "[2] Remove element" << std::endl
