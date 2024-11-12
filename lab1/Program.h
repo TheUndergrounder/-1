@@ -7,7 +7,8 @@ class flrogram :public Conference {
 public:
 
 	flrogram(); flrogram(std::ifstream& fin);
-	~flrogram(); void edit();
+	~flrogram(); 
+	void edit();
 	void save(std::ofstream& fout); 
 	void show(std::ostream& out);
 };

@@ -1,20 +1,48 @@
-﻿// lab1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include "Keeper.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	Keeper Konten; 
+	int menu;
+	do
+	{
+		system("cls");
+		std::cout << "***************************" << std::endl
+			<< "	Menu	" << std::endl
+			<< "***************************" << std::endl
+			<< " Number of elements in KEEflER : [" << Konten.GetSize() << "]" << std::endl;
+
+			system("cls");
+		std::cout << "***************************" << std::endl
+			<< "	Menu	" << std::endl
+			<< "***************************" << std::endl
+			<< " umber of elements in KEEflER : [" << Konten.GetSize() << "]"
+
+			<< "[1] Append element" << std::endl
+			<< "[2] Remove element" << std::endl
+			<< "[3] Save all in file" << std::endl
+			<< "[4] Load all from file" << std::endl
+			<< "[5] Change element" << std::endl
+			<< "[6] Show all data" << std::endl
+			<< "[0] If u want exit" << std::endl; std::cin >> menu;
+		system("cls"); switch (menu)
+		{
+
+		case 1:
+			Konten.add(); break;
+		case 2:
+			Konten.del(); break;
+		case 3:
+			Konten.save(); break;
+		case 4:
+			Konten.load(); break;
+		case 5:
+			Konten.edit(); break;
+		case 6:
+			std::cout << Konten; break;
+		case 0:
+		return 0; default:
+			break;
+		}
+	} while (true);
 }
-
-// Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
-// Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
-
-// Советы по началу работы 
-//   1. В окне обозревателя решений можно добавлять файлы и управлять ими.
-//   2. В окне Team Explorer можно подключиться к системе управления версиями.
-//   3. В окне "Выходные данные" можно просматривать выходные данные сборки и другие сообщения.
-//   4. В окне "Список ошибок" можно просматривать ошибки.
-//   5. Последовательно выберите пункты меню "Проект" > "Добавить новый элемент", чтобы создать файлы кода, или "Проект" > "Добавить существующий элемент", чтобы добавить в проект существующие файлы кода.
-//   6. Чтобы снова открыть этот проект позже, выберите пункты меню "Файл" > "Открыть" > "Проект" и выберите SLN-файл.

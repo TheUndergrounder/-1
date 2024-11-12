@@ -130,6 +130,7 @@
   <ItemGroup>
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="Conference.cpp" />
+    <ClCompile Include="Keeper.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Participant.cpp" />
     <ClCompile Include="Program.cpp" />
@@ -138,6 +139,7 @@
     <ClInclude Include="Conference.h" />
     <ClInclude Include="flarticipant.h" />
     <ClInclude Include="Admin.h" />
+    <ClInclude Include="Keeper.h" />
     <ClInclude Include="Program.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
